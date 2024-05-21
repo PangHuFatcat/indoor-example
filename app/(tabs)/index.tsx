@@ -9,7 +9,15 @@ import MapView from "react-native-maps"
 export default function HomeScreen() {
   return (
     <ThemedView style={{ flex: 1 }}>
-      <MapView style={{ flex: 1 }}></MapView>
+      <MapView
+        style={{ flex: 1 }}
+        region={{
+          latitude: 37.78825,
+          longitude: -122.4324,
+          latitudeDelta: 0.015,
+          longitudeDelta: 0.0121
+        }}
+      ></MapView>
       {/* <ThemedView style={{ flex: 1 }}></ThemedView> */}
     </ThemedView>
   )

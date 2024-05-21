@@ -17,7 +17,7 @@
     <meta-data android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS" android:value="0"/>
 
     <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
-   <meta-data android:name="com.google.android.geo.API_KEY" android:value="Your Google maps API Key Here"/>
+   <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyC-RhcoUuNyPTwtnr3VPXRFmNcLB7sEd9M"/>
 
     <activity android:name=".MainActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:theme="@style/Theme.App.SplashScreen" android:exported="true" android:screenOrientation="portrait">
       <intent-filter>
